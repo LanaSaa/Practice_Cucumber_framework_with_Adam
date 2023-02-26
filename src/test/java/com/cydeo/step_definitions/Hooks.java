@@ -14,7 +14,7 @@ for ALL the SCENARIOS and even STEPS.
 public class Hooks {
 
     //import the @Before coming from io.cucumber.java
-    @Before(order = 1)
+    @Before//(order = 1)
     public void setupMethod() {
         System.out.println("---> @Before: RUNNING BEFORE EACH SCENARIO");
     }
